@@ -399,11 +399,80 @@
             </li>
           </ul>
         </div>
+        <form class="newsletter">
+          <label class="newsletter-label" for="mail" lang="pl"
+            >Zapisz się do newslettera
+            <input
+              class="newsletter-input"
+              type="email"
+              name="email"
+              id="mail"
+              placeholder="E-mail"
+          /></label>
+          <button type="submit" class="newsletter-button" lang="pl">
+            Zapisz się
+          </button>
+        </form>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="buton-modal" data-modal-close><b>X</b></button>
+        <form>
+          <h3 class="order-title">Zostaw swoje dane w formularzu poniżej</h3>
+          <div class="name">
+            <label class="order-label" for="user-name"
+              >Imie
+              <input
+                class="order-input"
+                type="text"
+                name="name"
+                id="user-name"
+              />
+            </label>
+          </div>
+          <div class="phone">
+            <label class="order-label" for="user-phone"
+              >Telefon
+              <input
+                class="order-input"
+                type="tel"
+                name="phone"
+                id="user-phone"
+              />
+            </label>
+          </div>
+          <div class="email">
+            <label class="order-label" for="user-email"
+              >Email
+              <input
+                class="order-input"
+                type="email"
+                name="mail"
+                id="user-email"
+              />
+            </label>
+          </div>
+          <label class="order-label-comment" for="user-comment"
+            >Komentarz
+            <textarea
+              class="order-textarea"
+              name="order"
+              id="user-comment"
+              placeholder="Wprowadź tekst"
+            ></textarea>
+          </label>
+          <label class="acceptance-label" for="user-acceptance">
+            <input
+              class="acceptance-input hidden"
+              type="checkbox"
+              name="acceptance"
+              id="user-acceptance"
+            />Oświadczam iż akceptuję <a href="">Regulamin</a> i
+            <a href="">Politykę Prywatności</a>.
+          </label>
+          <button type="submit" class="order-button" lang="pl">Wyślij</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
