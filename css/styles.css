@@ -657,6 +657,7 @@ body {
 .order-input:focus-within,
 .order-input:hover {
   border: 1px solid #2196f3;
+  outline: none;
 }
 .order-label-comment {
   display: flex;
