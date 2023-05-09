@@ -482,6 +482,7 @@ body {
 }
 .newsletter-input:focus-within {
   border: 1px solid #2196f3;
+  outline: none;
 }
 .newsletter-label:hover .newsletter-input {
   border: 1px solid #2196f3;
@@ -684,6 +685,7 @@ body {
 .order-textarea:focus-within,
 .order-textarea:hover {
   border: 1px solid #2196f3;
+  outline: none;
 }
 .order-textarea::placeholder {
   font-size: 12px;
